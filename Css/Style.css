@@ -1,0 +1,475 @@
+/*
+page content
+1-general rules section
+2-heading section
+3-home section
+4-Contact Us Section
+5-services section
+6-solutions section
+7-about company section
+8-testimonials section
+9-call section
+10-footer section
+*/
+/*1-general rules section*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bd-r{
+    border-right: 1px solid #E9F3D6
+}
+.pd-y{
+    padding: 120px 0
+}
+/*End General rules*/
+/*2-heading section*/
+.heading{
+    width: 100%;
+    background-color: #A4C639;
+    overflow: hidden
+}
+.head{
+    width: 80%;
+    float: left;
+}
+.heading-info{
+    text-align: center;
+    text-decoration: none;
+    border-left: 1px solid #E9F3D6;
+    display: inline-block;
+    padding: 8px 15px
+}
+.contacting{
+    width: 20%;
+    float: left
+}
+.heading .heading-icon{
+    color: #E9F3D6
+}
+.heading .head .time,
+.heading .head .phone{
+    color: #E9F3D6;
+    margin-left: 5px;
+    display: inline-block
+}
+/*End Heading Section*/
+/*3-Home Section*/
+.home{
+    background-image: url(../Images/slide_01.jpg);
+    height: 600px;
+    background-size: cover
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar-title{
+    float: left;
+    width: 56%;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-top: 40px
+}
+.page-navbar{
+    float: right;
+    width: 44%;
+    list-style: none;
+    
+}
+.page-navbar a{
+    float: left;
+    padding: 40px 15px;
+    color: #FFF;
+    text-decoration: none;
+    transition: backgrond-color 0.5s
+}
+.page-navbar a:hover,
+.page-navbar a > li.active{
+    color:#A4C639
+}
+.home-content{
+    margin-top: 40px;
+    margin-left: 30px
+}
+.home-content-title{
+    color: #a4c639;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.home-content-title2{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: bold;
+    width: 180px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 30px
+}
+.home-content-desc{
+    color: #FFF;
+    line-height: 1.7;
+    width: 500px;
+    margin-bottom: 30px
+}
+.contact-btn{
+    background-color: #A4C639;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 50px;
+    margin: 20px 0 0 10px
+}
+/*End Home Section*/
+/*4-Contact Us Section*/
+.contact{
+    background: #A4C639;
+    overflow: hidden
+}
+.contact .contact-content{
+    float: left;
+    width: 80%;
+    padding: 40px 0
+}
+.contact .contact-title,
+.contact .contact-desc{
+    color: #FFF
+}
+.contact .contact-desc{
+    margin-top: 5px
+}
+.contact-me-btn{
+    float: left;
+    width:20%;
+    padding: 40px 0
+}
+.contact-us-button{
+    background-color: #A4C639;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    margin-top: 10px
+}
+/*End Contact Us Section*/
+/*Services Section*/
+.services{
+    overflow: hidden
+}
+.services-content{
+    text-align: center;
+    margin-bottom: 60px
+}
+.services-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px
+}
+.services-title-green{
+    color: #A4C639
+}
+.services-desc{
+    color: #666;
+    letter-spacing: 1.5px
+}
+.our-services{
+    overflow: hidden;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.services-images{
+    float: left;
+    width: 28%;
+}
+.mg{
+    margin: 0 8%
+}
+.img-title{
+    margin: 10px 20px
+}
+.img-desc{
+    margin: 10px 20px;
+    color: #666;
+    line-height: 1.7
+}
+.services-button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    border: 0;
+    border-radius: 50px;
+    background-color: #A4C639;
+    margin: 10px 20px;
+}
+/*End Services Section*/
+/*Start Solutions Section*/
+.solutions{
+    background-image: url(../Images/fun-facts-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding: 120px 0
+}
+.solutions-content{
+    float: left;
+    width: 50%
+}
+.solutions-small-head{
+    color: #FFF;
+    font: 20px ;
+    margin-bottom: 10px;
+    display: inline-block
+}
+.solutions-title{
+    color: #FFF;
+    font-size: 25px;
+    width:300px;
+}
+.solutions-title-span{
+    color: #A4C639
+}
+.solutions-desc{
+    margin:30px 0;
+    color: #FFF;
+    line-height: 1.6;
+    width: 100%
+}
+.clients-reviews{
+    float: left;
+    width: 15%;
+    padding: 38px;
+    text-align: center;
+    background-color: #3B3B3B;
+    margin: 15px
+}
+.reviews-heading{
+    color: #A4C639;
+    font-size:35px;
+    font-weight: bold
+}
+.reviews-span{
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 20px
+}
+/*End Solutions Section*/
+/*Start About Company Section*/
+.about-company{
+    overflow: hidden;
+    background-color: #F7F7F7;
+    height: 500px
+}
+.about-company-img{
+    float: left;
+    width: 50%
+}
+.about-company-img img{
+    width: 100%
+}
+.more-info{
+    float: left;
+    width: 45%;
+    margin: 50px 0 0 53px
+}
+.more-info-span{
+    color: #888;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.more-info-title{
+    font-weight: bold;
+    width: 400px;
+    font-size: 35px;
+    margin-bottom: 25px
+}
+.more-info-desc{
+    color: #888;
+    line-height: 1.7;
+    margin-bottom: 15px
+}
+/*End About Company Section*/
+/*Start Testimonials*/
+.testimonials{
+    background: #F7F7F7;
+    overflow: hidden
+}
+.testimonials-heading{
+    text-align: center
+}
+.testimonials-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 5px
+}
+.testimonials-span{
+    color: #A4C639
+}
+.testimonials-desc{
+    color: #888;
+    margin-bottom: 50px
+}
+.testimonials-people{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.testimonials-me{
+    background-color: #FFF;
+    height: 150px;
+    margin-right: 40px
+}
+.testimonials-people-title{
+    margin-bottom: 5px
+}
+.testimonials-people-span{
+    display: block;
+    margin-bottom: 5px;
+    color: yellowgreen
+}
+.testimonials-people-quote{
+    color: #888;
+    display: inline-block;
+}
+/*End Testimonials Section*/
+/*Start Call Section*/
+.call-heading{
+    text-align: center;
+    margin-bottom: 60px
+}
+.call-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 5px
+}
+.call-span{
+    color: #A4C639
+}
+.call-desc{
+    color: #888;
+}
+.call-form{
+    background-color: #A4C639;
+    height: 400px;
+    padding: 60px 0 0 30px;
+    border:0;
+    border-radius: 20px;
+    position: relative
+}
+.call-form input[type=text]{
+    width: 29%;
+    height: 40px;
+    margin: 0 10px 30px 0;
+    border: 0;
+    border-radius: 50px;
+    padding-left: 20px
+}
+.your-message{
+    width: 95%;
+    resize: none;
+    height: 150px;
+    border: 0;
+    border-radius: 40px;
+    padding: 18px 0 0 20px
+}
+.call-btn{
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    background-color: #A4C639;
+    cursor: pointer;
+    padding: 10px 30px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-0);
+    font-weight: bold;
+    font-size: 14px
+}
+/*End Call Section*/
+/*Start Footer*/
+.footer{
+    background-color: #232323;
+    overflow: hidden
+}
+.footer-content{
+    float: left;
+    width: 25%
+}
+.footer-content-title{
+    color: #FFF;
+    margin: 60px 0 20px 0
+}
+.footer-content-desc{
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 13px
+}
+.footer-icon{
+    color: #000;
+    padding: 10px 10px;
+    margin: 0 5px;
+    background-color: #FFF;
+    border-radius: 100px
+}
+.footer-link{
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: color 0.5s
+}
+.footer .footer-content a:hover{
+    color: #A4C639
+}
+.footer-form input[type="text"]{
+    background-color: #343434;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    padding: 0 0 0 15px
+}
+.footer-textarea{
+    border: 0;
+    resize: none;
+    width: 95%;
+    height: 80px;
+    background-color: #343434;
+    border-radius: 20px;
+    padding: 10px 15px
+}
+.footer-btn{
+    padding: 10px 25px;
+    background-color: #A4C639;
+    color: #fff;
+    font-size: 12px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px
+}
+/*End Footer*/
+.footer-end{
+    background-color: #343434
+}
+.footer-end-desc{
+    text-align: center;
+    color: #FFF;
+    padding: 30px 0 30px
+}
